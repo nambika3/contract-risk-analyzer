@@ -59,12 +59,19 @@ Contract Risk Analyzer is a Streamlit-based web application that uses AI to iden
    streamlit run app.py
    ```
 
-## Privacy Notice
+## Privacy & Security
 
 - No documents are stored on disk.
 - Only extracted text (after redacting PII) is sent to the external API.
 - Users must explicitly consent before analysis begins.
 - Do not upload contracts containing passwords, trade secrets, or sensitive PII.
+
+## Tech Stack
+
+- **Frontend/UI**: [Streamlit](https://streamlit.io)
+- **Backend**: Python
+- **AI Model**: Anthropic Claude via [OpenRouter](https://openrouter.ai/)
+- **Parsing**: PyPDF2, python-docx
 
 ## File Structure
 
